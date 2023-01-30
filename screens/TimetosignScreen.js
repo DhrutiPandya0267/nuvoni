@@ -54,7 +54,7 @@ const TimetosignScreen = props => {
 
         <View style={styles(theme).View026c23fa}>
           <Surface style={styles(theme).Surface6842abd7}>
-            <Utils.CustomCodeErrorBoundary>
+            <Utils.CustomCodeErrorBoundary>   
               <SignaturPad.GetMySingturePad />
             </Utils.CustomCodeErrorBoundary>
           </Surface>

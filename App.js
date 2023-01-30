@@ -71,7 +71,7 @@ const App = () => {
       onLayout={onLayoutRootView}
     >
       <GlobalVariableProvider>
-        <QueryClientProvider client={queryClient}>
+        <QueryClientProvider client={queryClient}> 
           <ThemeProvider theme={DraftbitTheme}>
             <AppNavigator />
           </ThemeProvider>

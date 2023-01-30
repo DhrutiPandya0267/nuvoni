@@ -115,7 +115,7 @@ export default function RootAppNavigator() {
     <NavigationContainer linking={LinkingConfiguration}>
       <Stack.Navigator
         headerMode="none"
-        initialRouteName="ChoiceScreen"
+        initialRouteName="TimetosignScreen"
         screenOptions={{
           headerStyle: {
             backgroundColor: theme.colors['White'],

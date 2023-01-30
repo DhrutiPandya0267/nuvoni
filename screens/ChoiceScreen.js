@@ -50,7 +50,7 @@ const ChoiceScreen = props => {
                 setGlobalVariableValue({
                   key: 'user_type',
                   value: 'diplomat',
-                });
+                });    
               } catch (err) {
                 console.error(err);
               }
